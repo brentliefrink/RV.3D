@@ -1,5 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
+
 
 *
 {
@@ -10,13 +9,14 @@
 html, body
 {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body
 {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 /* nav bar */
@@ -70,6 +70,7 @@ nav ul
 nav ul li
 {
   list-style: none;
+  transition: all 0.6s;
 }
 
 nav ul li a
@@ -93,6 +94,14 @@ nav ul li a:hover
 {
   color: #FFF;
   background: #0191D8;
+}
+
+.active {
+  background: #0191D8;
+}
+
+.non-active {
+  display: hidden;
 }
 
 /* section 1 */
