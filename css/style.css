@@ -19,6 +19,17 @@ body
   font-family: 'Barlow Condensed', sans-serif;
 }
 
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba(0,0,0,.8);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #0191D8;
+}
+
 /* nav bar */
 nav
 {
@@ -145,6 +156,16 @@ section.sec1 h2{
 }
 
 /* container content */
+#project {
+  background-color: #0191D8;
+  background-image: linear-gradient(326deg, #0191D8 0%, #eef1f5 25%);
+}
+
+#offer {
+  background-color: #0191D8;
+  background-image: linear-gradient(20deg, #0191D8 0%, #eef1f5 25%);
+}
+
 .container
 {
   min-height: 100%;
