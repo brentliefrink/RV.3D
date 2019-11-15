@@ -1,12 +1,14 @@
-<<<<<<< HEAD
+
 @charset "UTF-8";
-* {
-=======
+*
+{
+
+}
 
 
 *
 {
->>>>>>> 7d4f832b31955a5f4143ca9c1835f3df669f7ca5
+
   margin: 0;
   padding: 0;
 }
@@ -19,21 +21,21 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
+
   font-family: "Barlow Condensed", sans-serif;
-=======
+
   font-family: 'Barlow Condensed', sans-serif;
->>>>>>> 7d4f832b31955a5f4143ca9c1835f3df669f7ca5
+
 }
 
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
-<<<<<<< HEAD
+
   background-color: rgba(0, 0, 0, 0.8);
 =======
   background-color: rgba(0,0,0,.8);
->>>>>>> 7d4f832b31955a5f4143ca9c1835f3df669f7ca5
+
 }
 
 ::-webkit-scrollbar-thumb {
@@ -144,7 +146,7 @@ section.sec1 h2 {
 
 /* container content */
 #project {
-<<<<<<< HEAD
+
   background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
 }
 
@@ -153,7 +155,7 @@ section.sec1 h2 {
 }
 
 .container {
-=======
+
   background-color: #0191D8;
   background-image: linear-gradient(326deg, #0191D8 0%, #eef1f5 25%);
 }
@@ -165,7 +167,6 @@ section.sec1 h2 {
 
 .container
 {
->>>>>>> 7d4f832b31955a5f4143ca9c1835f3df669f7ca5
   min-height: 100%;
   height: 100vh;
 }
